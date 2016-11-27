@@ -1,4 +1,4 @@
-set(cpps main.cpp test_catch.cpp)
+set(cpps main.cpp bdd_catch.cpp)
 set(hpps catch.hpp RingBuffer.hpp)
 
 #add_library(ringbuffer RingBuffer.hpp)
