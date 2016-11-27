@@ -13,7 +13,7 @@ SCENARIO("RingBuffer") {
 
         THEN("the size will be zero")
             REQUIRE(rb.size() == 0);
-        
+
         WHEN("a value is pushed") {
             rb.push_back(1);
             THEN("the size becomes 1") {
